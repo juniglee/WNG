@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldNomadsGroup", "WorldNomadsGroup\WorldNomadsGroup.csproj", "{5E9F1374-C1A1-4AE6-AD35-61E8EC9008F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldNomadsGroupTest", "WorldNomadsGroupTest\WorldNomadsGroupTest.csproj", "{B2605015-1159-44C0-B820-4DA5856ABCF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E9F1374-C1A1-4AE6-AD35-61E8EC9008F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9F1374-C1A1-4AE6-AD35-61E8EC9008F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9F1374-C1A1-4AE6-AD35-61E8EC9008F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9F1374-C1A1-4AE6-AD35-61E8EC9008F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2605015-1159-44C0-B820-4DA5856ABCF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2605015-1159-44C0-B820-4DA5856ABCF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2605015-1159-44C0-B820-4DA5856ABCF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2605015-1159-44C0-B820-4DA5856ABCF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
