@@ -6,27 +6,9 @@ using System.Threading.Tasks;
 
 namespace WorldNomadsGroup
 {
-    public class WorldNomadsGroup
+    public class Calculator
     {
-        static void Main(string[] args)
-        {
-            int input = Convert.ToInt32(Console.ReadLine());            
-
-            StringBuilder output1 = Sequence(input);
-            StringBuilder output2 = OddNumbers(input);
-            StringBuilder output3 = EvenNumbers(input);
-            StringBuilder output4 = MultiplesCheck(input);
-            StringBuilder output5 = Fibonacci(input);            
-
-            Console.WriteLine("Numbers up to input: " + output1.ToString());
-            Console.WriteLine("Odd numbers up to input: " + output2.ToString());
-            Console.WriteLine("Even numbers up to input: " + output3.ToString());
-            Console.WriteLine("Multiple of 3/5 check input: " + output4.ToString());
-            Console.WriteLine("Fibonacci sequece: " + output5.ToString());
-            Console.ReadKey();
-        }
-
-        public static StringBuilder Sequence(int input)
+        public StringBuilder GetIncrementalSequence(int input)
         {
             StringBuilder results = new StringBuilder();
 
@@ -43,7 +25,7 @@ namespace WorldNomadsGroup
             return results;
         }
 
-        public static StringBuilder OddNumbers(int input)
+        public StringBuilder GetOddNumbersSequence(int input)
         {
             StringBuilder results = new StringBuilder();
 
@@ -73,7 +55,7 @@ namespace WorldNomadsGroup
             return results;
         }
 
-        public static StringBuilder EvenNumbers(int input)
+        public StringBuilder GetEvenNumbersSequence(int input)
         {
             StringBuilder results = new StringBuilder();
 
@@ -103,7 +85,7 @@ namespace WorldNomadsGroup
             return results;
         }
 
-        public static StringBuilder MultiplesCheck(int input)
+        public StringBuilder CheckMultiplesThreeAndFive(int input)
         {
             StringBuilder results = new StringBuilder();
 
@@ -147,7 +129,7 @@ namespace WorldNomadsGroup
             return results;
         }
 
-        public static StringBuilder Fibonacci(int input)
+        public StringBuilder GetFibonacciSequence(int input)
         {
             List<int> resultsTemp = new List<int>();
             StringBuilder results = new StringBuilder();

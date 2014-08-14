@@ -4,3 +4,9 @@ C:\Projects2014_New\Personal\WorldNomadsGroup\WorldNomadsGroup\bin\Debug\WorldNo
 C:\Projects2014_New\Personal\WorldNomadsGroup\WorldNomadsGroup\obj\Debug\WorldNomadsGroup.csprojResolveAssemblyReference.cache
 C:\Projects2014_New\Personal\WorldNomadsGroup\WorldNomadsGroup\obj\Debug\WorldNomadsGroup.exe
 C:\Projects2014_New\Personal\WorldNomadsGroup\WorldNomadsGroup\obj\Debug\WorldNomadsGroup.pdb
+C:\Projects2014_New\Personal\WNG\WorldNomadsGroup\WorldNomadsGroup\bin\Debug\WorldNomadsGroup.exe.config
+C:\Projects2014_New\Personal\WNG\WorldNomadsGroup\WorldNomadsGroup\obj\Debug\WorldNomadsGroup.exe
+C:\Projects2014_New\Personal\WNG\WorldNomadsGroup\WorldNomadsGroup\obj\Debug\WorldNomadsGroup.pdb
+C:\Projects2014_New\Personal\WNG\WorldNomadsGroup\WorldNomadsGroup\bin\Debug\WorldNomadsGroup.exe
+C:\Projects2014_New\Personal\WNG\WorldNomadsGroup\WorldNomadsGroup\bin\Debug\WorldNomadsGroup.pdb
+C:\Projects2014_New\Personal\WNG\WorldNomadsGroup\WorldNomadsGroup\obj\Debug\WorldNomadsGroup.csprojResolveAssemblyReference.cache
