@@ -76,7 +76,7 @@ namespace WorldNomadsGroupTest
             string expectedResults1 = "0, 1, 1, 2, 3, 5";
 
             int input2 = 20;
-            string expectedResults2 = "0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765";
+            string expectedResults2 = "0, 1, 1, 2, 3, 5, 8, 13, 20";
 
             Assert.AreEqual(expectedResults1, calculator.GetFibonacciSequence(input1).ToString());
             Assert.AreEqual(expectedResults2, calculator.GetFibonacciSequence(input2).ToString());

@@ -131,6 +131,15 @@ namespace WorldNomadsGroup
 
         public StringBuilder GetFibonacciSequence(int input)
         {
+            /*
+             * My original interpretation of this function is that it should display x elements of the Fibonacci sequence, where x is the value of (input + 1).
+             * As I have been asked to fix this, so I assume my original interpretation is wrong.
+             * 
+             * This current new interpretation is to only display all values of the Fibonacci sequence, which does not exceed, or is equal to the value of the input.
+             * For example, if our value is 5, our results would be 0, 1, 1, 2, 3, 5.
+             * 
+             */ 
+
             List<int> resultsTemp = new List<int>();
             StringBuilder results = new StringBuilder();
 
@@ -150,7 +159,8 @@ namespace WorldNomadsGroup
                 resultsTemp.Add(0);
                 resultsTemp.Add(1);
 
-                for (int i = 2; i <= input; i++)
+                //Original interpretation, which is wrong
+                /*for (int i = 2; i <= input; i++)
                 {
                     int value = resultsTemp.ElementAt(i - 2) + resultsTemp.ElementAt(i - 1);
                     resultsTemp.Add(value);
@@ -163,7 +173,29 @@ namespace WorldNomadsGroup
                     {
                         results.Append(value.ToString());
                     }
+                }*/
+
+                //new interpretation
+                int counter = 2;
+                int value = resultsTemp.ElementAt(counter - 2) + resultsTemp.ElementAt(counter - 1); 
+
+                while (value < input)
+                {
+                    value = resultsTemp.ElementAt(counter - 2) + resultsTemp.ElementAt(counter - 1);
+
+                    resultsTemp.Add(value);
+
+                    if (value < input)
+                    {
+                        results.Append(value.ToString() + ", ");
+                    }
+
+                    counter++;
                 }
+
+                //final value - append input value
+                //admittedly a rather hacky solution, but we would be adding the input as the final value anyway, regardless if it was a member of a Fibonacci sequence or not
+                results.Append(input);
             }
 
             return results;

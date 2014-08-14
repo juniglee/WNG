@@ -5,3 +5,10 @@ C:\Projects2014_New\Personal\WorldNomadsGroup\WorldNomadsGroupTest\bin\Debug\Wor
 C:\Projects2014_New\Personal\WorldNomadsGroup\WorldNomadsGroupTest\obj\Debug\WorldNomadsGroupTest.csprojResolveAssemblyReference.cache
 C:\Projects2014_New\Personal\WorldNomadsGroup\WorldNomadsGroupTest\obj\Debug\WorldNomadsGroupTest.dll
 C:\Projects2014_New\Personal\WorldNomadsGroup\WorldNomadsGroupTest\obj\Debug\WorldNomadsGroupTest.pdb
+C:\Projects2014_New\Personal\WNG\WorldNomadsGroup\WorldNomadsGroupTest\bin\Debug\WorldNomadsGroupTest.dll
+C:\Projects2014_New\Personal\WNG\WorldNomadsGroup\WorldNomadsGroupTest\bin\Debug\WorldNomadsGroupTest.pdb
+C:\Projects2014_New\Personal\WNG\WorldNomadsGroup\WorldNomadsGroupTest\bin\Debug\WorldNomadsGroup.exe
+C:\Projects2014_New\Personal\WNG\WorldNomadsGroup\WorldNomadsGroupTest\bin\Debug\WorldNomadsGroup.pdb
+C:\Projects2014_New\Personal\WNG\WorldNomadsGroup\WorldNomadsGroupTest\obj\Debug\WorldNomadsGroupTest.csprojResolveAssemblyReference.cache
+C:\Projects2014_New\Personal\WNG\WorldNomadsGroup\WorldNomadsGroupTest\obj\Debug\WorldNomadsGroupTest.dll
+C:\Projects2014_New\Personal\WNG\WorldNomadsGroup\WorldNomadsGroupTest\obj\Debug\WorldNomadsGroupTest.pdb
